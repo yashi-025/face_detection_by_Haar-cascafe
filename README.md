@@ -18,19 +18,19 @@ Example:
 > - minNeighbors=5 means region must have at least 5 neighbors to be considered a face.
 
 # Installation
-1. **Clone the Repository**
+1. **Clone the Repository:**
 ```
 git clone https://github.com/yashi-025/face_detection_by_Haar-cascafe.git 
 cd face_detection_by_Haar-cascafe
 ```
 
-2. **Install Dependencies**
+2. **Install Dependencies:**
 Make sure you have Python and pip installed, then:
 <pre><code>pip install opencv-python</code></pre>
 
 # How to Run
-**Option 1: Detect Faces from Webcam**
+**Option 1: Detect Faces from Webcam:**
 <pre><code>python face_detect.py </code></pre>
-**Option 2: Detect Faces in an Image**
+**Option 2: Detect Faces in an Image:**
 Modify the face_detect.py to load an image instead of webcam input (add this if needed):
 <pre><code>img = cv2.imread('your_image.jpg') </code></pre>
